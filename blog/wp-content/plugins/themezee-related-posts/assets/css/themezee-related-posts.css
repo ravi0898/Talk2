@@ -1,0 +1,178 @@
+/*
+ * ThemeZee Related Posts
+ * https://themezee.com/plugins/related-posts/
+ *
+ * Copyright(C) 2015, ThemeZee.com - support@themezee.com
+ * License: GPL v3
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * @package ThemeZee Related Posts
+ */
+
+/*--------------------------------------------------------------
+# General Styles
+---------------------------------------------------------------- */
+
+/* Clearing Floats */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1; /* For IE 6/7 only */
+}
+
+/*--------------------------------------------------------------
+# List Layout
+---------------------------------------------------------------- */
+ul.related-posts-list {
+	margin: 1em 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.related-posts-list li {
+	margin: 0 0 1em;
+	padding: 0;
+	list-style: none;
+}
+
+.related-posts-list li .entry-title {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.related-posts-list li .wp-post-image {
+	float: left;
+	margin: 0 1em 0 0;
+	padding: 0;
+	border: none;
+	max-width: 25%;
+}
+
+/*--------------------------------------------------------------
+# Grid Layouts
+---------------------------------------------------------------- */
+.related-posts-grid {
+	margin: 1em 0 0;
+}
+
+.related-posts-columns {
+	margin-right: -1em;
+}
+
+.related-posts-columns .related-post-column {
+	float: left;
+	margin-bottom: 1em;
+	padding-right: 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.related-posts-two-columns .related-post-column {
+	width: 50%;
+}
+
+.related-posts-three-columns .related-post-column {
+	width: 33.3333333333333%;
+}
+
+.related-posts-four-columns .related-post-column {
+	width: 25%;
+}
+
+.related-posts-two-columns .related-post-column:nth-child(2n + 1) {
+	clear: left;
+}
+
+.related-posts-three-columns .related-post-column:nth-child(3n + 1) {
+	clear: left;
+}
+
+.related-posts-four-columns .related-post-column:nth-child(4n + 1) {
+	clear: left;
+}
+
+.related-posts-columns .related-post-column .wp-post-image {
+	margin: 0 0 0.5em 0;
+	padding: 0;
+	border: none;
+}
+
+.related-posts-columns .related-post-column .entry-title {
+	margin: 0;
+	padding: 0;
+}
+
+.related-posts-columns .related-post-column .entry-meta {
+	margin: 0;
+	padding: 0;
+	color: #777;
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+.related-posts-columns .related-post-column .entry-meta .meta-author {
+	margin-left: 0.5em;
+}
+
+/*--------------------------------------------------------------
+# Media Queries
+---------------------------------------------------------------- */
+
+@media only screen and (max-width: 50em) {
+
+	/* Columns */
+	.related-posts-four-columns .related-post-column {
+		width: 50%;
+	}
+
+	.related-posts-four-columns .related-post-column:nth-child(2n + 1) {
+		clear: left;
+	}
+}
+
+@media only screen and (max-width: 35em) {
+
+	/* Columns */
+	.related-posts-three-columns {
+		margin: 0;
+	}
+
+	.related-posts-three-columns .related-post-column {
+		float: none;
+		width: 100%;
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width: 25em) {
+
+	/* Columns */
+	.related-posts-two-columns,
+	.related-posts-four-columns {
+		margin: 0;
+	}
+
+	.related-posts-two-columns .related-post-column,
+	.related-posts-four-columns .related-post-column {
+		float: none;
+		width: 100%;
+		padding-right: 0;
+	}
+
+	/* List */
+	.related-posts-list li .wp-post-image {
+		float: none;
+		margin: 0 0 0.5em 0;
+		max-width: 100%;
+	}
+}

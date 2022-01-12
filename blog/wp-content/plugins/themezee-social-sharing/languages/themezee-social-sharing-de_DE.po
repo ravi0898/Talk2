@@ -1,0 +1,224 @@
+# Translation of Themes + Pro Versions + Add-ons in German
+# This file is distributed under the same license as the Themes + Pro Versions + Add-ons package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ThemeZee Social Sharing\n"
+"Report-Msgid-Bugs-To: https://themezee.com/\n"
+"POT-Creation-Date: 2019-09-25 16:46+0200\n"
+"PO-Revision-Date: 2019-09-25 16:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: ThemeZee <support@themezee.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: includes/admin/class-themezee-plugins-page.php:42
+#: includes/admin/class-themezee-plugins-page.php:43
+#: includes/admin/class-themezee-plugins-page.php:109
+#: includes/admin/class-themezee-plugins-page.php:114
+msgid "ThemeZee Plugins"
+msgstr "ThemeZee Plugins"
+
+#: includes/admin/class-themezee-plugins-page.php:109
+msgid "plugins"
+msgstr "Plugins"
+
+#: includes/admin/class-themezee-plugins-page.php:116
+#, php-format
+msgid ""
+"You need more features and functionality? Extend your website with our "
+"customized %s."
+msgstr ""
+"Du brauchst mehr Features und Funktionalität? Erweitere deine Webseite mit "
+"unseren %s."
+
+#: includes/admin/class-themezee-plugins-page.php:138
+msgid "Overview"
+msgstr "Übersicht"
+
+#: includes/admin/class-tzss-plugin-updater.php:202
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sDetails zu Version %3$s "
+"ansehen%4$s."
+
+#: includes/admin/class-tzss-plugin-updater.php:210
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sDetails zu Version %3$s "
+"ansehen%4$s oder %5$sjetzt aktualisieren%6$s."
+
+#: includes/admin/class-tzss-plugin-updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr "Du hast keine Berechtigung zur Installation von Plugin Updates"
+
+#: includes/admin/class-tzss-plugin-updater.php:396
+msgid "Error"
+msgstr "Fehler"
+
+#: includes/settings/class-tzss-settings-page.php:42
+#: includes/settings/class-tzss-settings-page.php:58
+msgid "Social Sharing"
+msgstr "Social Sharing"
+
+#: includes/settings/class-tzss-settings.php:134
+msgid "General Options"
+msgstr "Allgemeine Optionen"
+
+#: includes/settings/class-tzss-settings.php:135
+msgid "License"
+msgstr "Lizenz"
+
+#: includes/settings/class-tzss-settings.php:174
+#, php-format
+msgid ""
+"Please activate your license in order to receive automatic plugin updates "
+"and <a href=\"%s\" target=\"_blank\">support</a>."
+msgstr ""
+"Bitte aktiviere deine Lizenz, um automatische Updates und <a href=\"%s\" "
+"target=\"_blank\">Support</a> zu erhalten."
+
+#: includes/settings/class-tzss-settings.php:273
+msgid "Social Networks"
+msgstr "Social Netzwerke"
+
+#: includes/settings/class-tzss-settings.php:277
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/settings/class-tzss-settings.php:278
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/settings/class-tzss-settings.php:279
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/settings/class-tzss-settings.php:280
+msgid "Telegram"
+msgstr "Telegram"
+
+#: includes/settings/class-tzss-settings.php:281
+msgid "Buffer"
+msgstr "Buffer"
+
+#: includes/settings/class-tzss-settings.php:282
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/settings/class-tzss-settings.php:283
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/settings/class-tzss-settings.php:284
+msgid "Xing"
+msgstr "Xing"
+
+#: includes/settings/class-tzss-settings.php:285
+msgid "Email"
+msgstr "Email"
+
+#: includes/settings/class-tzss-settings.php:290
+msgid "Choose Locations"
+msgstr "Wähle Platzierung"
+
+#: includes/settings/class-tzss-settings.php:294
+msgid "Display share buttons above content"
+msgstr "Zeige Sharing Buttons über dem Inhalt"
+
+#: includes/settings/class-tzss-settings.php:295
+msgid "Display share buttons below content"
+msgstr "Zeige Sharing Buttons unter dem Inhalt"
+
+#: includes/settings/class-tzss-settings.php:296
+msgid "Display share buttons in floating sidebar"
+msgstr "Zeige Sharing Buttons in Sidebar"
+
+#: includes/settings/class-tzss-settings.php:301
+msgid "Button Style"
+msgstr "Button Style"
+
+#: includes/settings/class-tzss-settings.php:305
+msgid "Display Icons"
+msgstr "Zeige Icons"
+
+#: includes/settings/class-tzss-settings.php:306
+msgid "Display Labels"
+msgstr "Zeige Labels"
+
+#: includes/settings/class-tzss-settings.php:307
+msgid "Display Icons and Labels"
+msgstr "Zeige Icons und Labels"
+
+#: includes/settings/class-tzss-settings.php:312
+#: includes/settings/class-tzss-settings.php:443
+#: includes/settings/class-tzss-settings.php:446
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: includes/settings/class-tzss-settings.php:430
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: includes/settings/class-tzss-settings.php:431
+msgid "Your license is valid!"
+msgstr "Deine Lizenz ist gültig!"
+
+#: includes/settings/class-tzss-settings.php:440
+msgid "Renew Your License"
+msgstr "Lizenz verlängern"
+
+#: includes/settings/class-tzss-settings.php:441
+msgid ""
+"Your license has expired, renew today to continue getting updates and "
+"support!"
+msgstr ""
+"Deine Lizenz ist abgelaufen. Bitte erneuere sie, um weiterhin Updates und "
+"Support zu erhalten!"
+
+#: includes/settings/class-tzss-settings.php:444
+msgid "Your license is invalid!"
+msgstr "Deine Lizenz ist ungültig!"
+
+#: includes/settings/class-tzss-settings.php:539
+#, php-format
+msgid ""
+"The callback function used for the <strong>%s</strong> setting is missing."
+msgstr ""
+"Die Callback Funktion für die Einstellung <strong>%s</strong> ist nicht "
+"vorhanden."
+
+#: themezee-social-sharing.php:165
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: themezee-social-sharing.php:182
+#, php-format
+msgid "Version %s"
+msgstr "Version %s "
+
+#: themezee-social-sharing.php:186
+msgid "Plugin Settings"
+msgstr "Plugin Einstellungen"
+
+#: themezee-social-sharing.php:187
+msgid "View Documentation"
+msgstr "Dokumentation ansehen"
+
+#: themezee-social-sharing.php:216
+#, php-format
+msgid ""
+"Please activate your license for the %1$s plugin in order to receive updates "
+"and support. <a href=\"%2$s\">Activate License</a>"
+msgstr ""
+"Bitte aktiviere deine Lizenz für das %1$s Plugin, um automatische Updates "
+"und Support zu erhalten. <a href=\"%2$s\">Lizenz aktivieren</a>"
